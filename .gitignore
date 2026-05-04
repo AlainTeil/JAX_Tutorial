@@ -1,0 +1,49 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Local audit reports
+.audit/
+
+# Python packaging/build outputs
+build/
+dist/
+*.egg-info/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.coverage
+.coverage.*
+htmlcov/
+
+# JAX/local runtime caches
+.jax_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Artifacts policy
+# Keep small, intentional example artifacts in artifacts/ under version control.
+# Ignore transient experiment outputs (checkpoints, logs, temporary dumps).
+.local_artifacts/
+artifacts/checkpoints/
+artifacts/runs/
+artifacts/*.tmp
+artifacts/*.log
+artifacts/*.ckpt
+artifacts/*.npz
+artifacts/*.npy
+artifacts/*.pkl
+artifacts/*.pickle
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
